@@ -1,0 +1,67 @@
+[
+    {
+        "question": "Quel langage est utilisé pour le style des pages web ?",
+        "options": ["HTML", "CSS", "JavaScript", "Python"],
+        "correct": 1
+    },
+    {
+        "question": "Quelle balise HTML est utilisée pour un lien hypertexte ?",
+        "options": ["<div>", "<a>", "<p>", "<span>"],
+        "correct": 1
+    },
+    {
+        "question": "Quelle méthode JavaScript est utilisée pour ajouter un élément à un tableau ?",
+        "options": ["push()", "add()", "append()", "insert()"],
+        "correct": 0
+    },
+    {
+        "question": "Quel est le format principal des feuilles de style en cascade ?",
+        "options": [".html", ".css", ".js", ".xml"],
+        "correct": 1
+    },
+    {
+        "question": "Quel protocole est utilisé pour sécuriser les sites web ?",
+        "options": ["HTTP", "FTP", "HTTPS", "SMTP"],
+        "correct": 2
+    },
+    {
+        "question": "Que signifie SQL ?",
+        "options": [
+            "Structured Query Language",
+            "Simple Query Language",
+            "Sequential Query Language",
+            "Standard Question Language"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Quelle est la fonction principale de JavaScript dans une page web ?",
+        "options": [
+            "Définir le style",
+            "Structurer la page",
+            "Ajouter des interactions dynamiques",
+            "Créer une base de données"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "Quelle propriété CSS est utilisée pour changer la couleur du texte ?",
+        "options": ["font-color", "text-color", "color", "background-color"],
+        "correct": 2
+    },
+    {
+        "question": "En programmation, que signifie 'DOM' ?",
+        "options": [
+            "Document Object Model",
+            "Data Object Management",
+            "Digital Object Method",
+            "Dynamic Output Model"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Quelle est la bonne syntaxe pour déclarer une variable en JavaScript ?",
+        "options": ["var myVar;", "variable myVar;", "v myVar;", "let myVar;"],
+        "correct": 3
+    }
+]
