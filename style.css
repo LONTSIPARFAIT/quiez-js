@@ -1,3 +1,4 @@
+/* Style global */
 body {
     font-family: Arial, sans-serif;
     display: flex;
@@ -7,6 +8,8 @@ body {
     background: #f4f4f4;
     margin: 0;
 }
+
+/* Conteneur principal du quiz */
 .container {
     background: white;
     padding: 20px;
@@ -15,10 +18,14 @@ body {
     width: 400px;
     text-align: center;
 }
+
+/* Style de la question */
 .question {
     font-size: 18px;
     margin-bottom: 10px;
 }
+
+/* Style des options */
 .options label {
     display: block;
     padding: 10px;
@@ -27,20 +34,30 @@ body {
     cursor: pointer;
     transition: 0.3s;
 }
+
+/* Cacher les boutons radio mais les garder fonctionnels */
 .options input {
     display: none;
 }
+
+/* Effet de survol des options */
 .options label:hover {
     background: #ddd;
 }
+
+/* Style pour les réponses correctes */
 .correct {
     background: #28a745 !important;
     color: white;
 }
+
+/* Style pour les réponses incorrectes */
 .wrong {
     background: #dc3545 !important;
     color: white;
 }
+
+/* Style du bouton de soumission */
 #submit {
     margin-top: 10px;
     padding: 10px 15px;
@@ -50,15 +67,21 @@ body {
     border-radius: 5px;
     cursor: pointer;
 }
+
+/* Effet au survol du bouton de soumission */
 #submit:hover {
     background: #0056b3;
 }
+
+/* Style du minuteur */
 #timer {
     font-size: 16px;
     font-weight: bold;
     color: #dc3545;
     margin-bottom: 10px;
 }
+
+/* Style du résultat à la fin du quiz */
 #result {
     margin-top: 15px;
     font-weight: bold;
@@ -81,4 +104,3 @@ body {
     background-color: #4caf50;
     transition: width 0.3s ease-in-out;
 }
-
