@@ -62,8 +62,10 @@ document.getElementById("submit").addEventListener("click", () => {
     const correctIndex = quizData[currentQuestion].correct;
     const options = document.querySelectorAll(".options label");
 
+    // Ajoute la classe "correct" ou "wrong" selon le choix
     options[selectedIndex].classList.add(selectedIndex === correctIndex ? "correct" : "wrong");
 
+    // Ajoute un délai pour passer à la question suivante
     setTimeout(() => nextQuestion(selectedIndex === correctIndex), 1000);
 });
 
