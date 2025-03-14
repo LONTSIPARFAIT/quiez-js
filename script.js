@@ -33,6 +33,9 @@ function loadQuestion() {
         label.innerHTML = `<input type="radio" name="answer" value="${index}"> ${option}`;
         optionsEl.appendChild(label);
     });
+
+    // Mise à jour de la barre de progression
+    updateProgressBar();
 }
 
 function updateTimer() {
@@ -42,6 +45,13 @@ function updateTimer() {
         clearInterval(timer);
         nextQuestion(false); // Passer à la question suivante si le temps est écoulé
     }
+}
+
+// Mise à jour de la barre de progression
+function updateProgressBar() {
+    const progressBar = document.getElementById("progress-bar");
+    const progress = ((currentQuestion + 1) / quizData.length) * 100;
+    progressBar.style.width = progress + "%";
 }
 
 document.getElementById("submit").addEventListener("click", () => {
